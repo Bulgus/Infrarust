@@ -125,8 +125,7 @@ services:
     ports:
       - "25565:25565"
     volumes:
-      - ./config.yaml:/etc/infrarust/config.yaml
-      - ./proxies:/etc/infrarust/proxies
+      - .:/app/config
 ```
 
 ## Development Installation
@@ -229,3 +228,4 @@ If you encounter installation issues:
 1. Check [known issues](https://github.com/shadowner/infrarust/issues)
 2. Join our [Discord](https://discord.gg/sqbJhZVSgG)
 3. Open a ticket on GitHub
+
